@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema(
         },
         watchHistory: [
             {
-                type: Schema.Types.ObjectId,
+                type: mongoose.Schema.Types.ObjectId,
                 ref: "Video"
             }
         ],
